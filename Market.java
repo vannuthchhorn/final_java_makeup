@@ -17,7 +17,6 @@ public class Market {
 		return countTheNumberOfSecondHand;
 	}
 	
-	
 	public boolean atLeast3ItemMakeNoise() {
 		int countItemCanMakeNoice = 0;
 		boolean result = false;
@@ -30,11 +29,8 @@ public class Market {
 				result = true;
 			}
 		}
-		return result;
-		
+		return result;	
 	}
-
-	
 	public Market() {
 		this.items = new ArrayList<>();
 	}
@@ -61,11 +57,8 @@ public class Market {
 				result.add(mi);
 			}
 		}
-		
 		return result;
 	}
-	
-	
 	
 	public void addItem(MarketItem item) {
 		this.items.add(item);
